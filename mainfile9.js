@@ -11,3 +11,12 @@ query ($owner: String!, $repo: String!, $sha: GitObjectID!) {
   }
 }
 `;
+
+
+
+  this.$when(() => ~this.review.core.ownerName && ~this.review.core.repoName).then(() => {
+    const core = this.review.core;
+    return this.$meta.user ?
+      this.$store.services.completions.labels.fetch(core.ownerName, core.repoName) :
+      this.$store.services.completions.labels.fetchAnonymous(core.ownerName, core.repoName);
+  });
