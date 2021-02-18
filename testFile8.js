@@ -5,7 +5,7 @@ function foldEquivalentPackets (revisions, packets) {
     let N = Math.min(packets.length, Math.floor(tempArr.length / 2)), windowSize = N;
     while (windowSize >= N) {
       let start = packets.length-N, offset = start + windowSize;
-      console.log(start, "Starting", windowSize, N, offset);
+      console.log(start, "Start", windowSize, N, offset);
       while (start < packets.length) {
         const L = tempArr.slice(start, start+windowSize), R = tempArr.slice(offset, offset+windowSize)
         console.log(areSubsequencesEqual(L, L.length, R, R.length));
