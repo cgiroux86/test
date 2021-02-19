@@ -29,7 +29,7 @@ function equivalents(review, packets) {
   let joinedSequence = [...review, ...packets];
   let windowSize = Math.min(packets.length, Math.floor(joinedSequence.length / 2));
   while (windowSize > 0) {
-    for (let start = Math.max(review.length, windowSize); start <= (joinedSequence.length - windowSize); start++) {
+    for (let start = Math.max(review.length, windowSize); start < (joinedSequence.length - windowSize); start++) {
       if (areEqual(joinedSequence, start-windowSize, start, windowSize)) {
         joinedSequence.splice(start, windowSize)
         packets.slice(start-review.length, windowSize);
