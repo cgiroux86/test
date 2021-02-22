@@ -27,8 +27,11 @@ function foldEquivalentPackets(review, packets) {
 
 function equivalents(review, packets) {
   let joinedSequence = [...review, ...packets];
-  let windowSize = Math.min(packets.length, Math.floor(joinedSequence.length / 2));
+  let windowSize = Infinity;
   while (windowSize > 0) {
+    if (windowSize === Infinity) {
+      windowSize = Math.min(packets.length, Math.floor(joinedSequence.length / 2));
+    }
     for (let start = Math.max(review.length, windowSize); start < (joinedSequence.length - windowSize); start++) {
       if (areEqual(joinedSequence, start-windowSize, start, windowSize)) {
         joinedSequence.splice(start, windowSize)
