@@ -45,7 +45,7 @@ function equivalents(review, packets) {
   console.log(joinedSequence);
 }
 
-// ABABaba A(BAB)[aba] -> ABAB
+// ABABabaAAAA A(BAB)[aba] -> ABAB
     // while (windowSize <= N) {
     //    for (let start = 1; start < packets.length; start++) {
     //        const offset = start - windowSize;
