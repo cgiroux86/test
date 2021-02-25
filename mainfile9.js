@@ -1,5 +1,5 @@
 
-console.log('This is the main test file now!!!!');
+console.log('This is the main test file now!!!!!!!!');
 
 
 const IMAGE_SIZE_QUERY = `
