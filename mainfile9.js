@@ -1,4 +1,6 @@
-console.log('This is the main test file new777!!!!!');
+
+console.log('This is the main test file new!!!!');
+
 
 const IMAGE_SIZE_QUERY = `
 query ($owner: String!, $repo: String!, $sha: GitObjectID!) {
