@@ -46,23 +46,6 @@ function equivalents(review, packets) {
 }
 
 
-// ABABabaAAAA A(BAB)[aba] -> ABAB
-
-// ABABaba A(BAB)[aba] -> ABAB
-    // while (windowSize <= N) {
-    //    for (let start = 1; start < packets.length; start++) {
-    //        const offset = start - windowSize;
-    //        if (offset >= 0) {
-    //            const L = packets.slice(offset, offset+windowSize), R = packets.slice(start, start+windowSize)
-    //            if (L.match(/[A-Z]/g) && R.match(/[A-Z]/g)) continue;
-    //            if (L.toLowerCase() === R.toLowerCase()) { 
-    //                 packets = packets.slice(0, offset+windowSize) + packets.slice(start+windowSize), windowSize = 1
-    //             }
-    //        }
-    //    }
-    //    windowSize++;
-    // }
-
     function areEqual(seq, leftStart, rightStart, windowSize) {
       while (windowSize > 0) {
         if (seq[leftStart++] !== seq[rightStart++]) return false;
