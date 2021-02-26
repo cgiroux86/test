@@ -91,4 +91,4 @@ function normalizeRevisionsToPacketFiles(review, packets) {
 equivalents(['a', 'b', 'b', 'c'],  ['b', 'c', 'b', 'a']);
 equivalents(['a', 'b', 'b', 'a'], ['a', 'b', 'b', 'a', 'a', 'b', 'b', 'a']);
 equivalents(['a', 'b','c'], ['a', 'b', 'c'])
-// (AB)[BA] => A(B)[B] A
+
