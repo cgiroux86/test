@@ -22,7 +22,6 @@ function foldEquivalentPackets(review, packets) {
     }
     windowSize--;
   }
-}
 
 function equivalents(review, packets) {
   let joinedSequence = [...review, ...packets];
