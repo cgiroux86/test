@@ -24,6 +24,7 @@ function foldEquivalentPackets(review, packets) {
   }
 }
 
+console.log('Hello from the other side');
 
 function equivalents(review, packets) {
   let joinedSequence = [...review, ...packets];
