@@ -23,9 +23,6 @@ function foldEquivalentPackets(review, packets) {
     windowSize--;
   }
 
-  console.log('Testing!');
-}
-
 function equivalents(review, packets) {
   let joinedSequence = [...review, ...packets];
   let windowSize = Infinity;
