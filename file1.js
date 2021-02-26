@@ -1,3 +1,3 @@
 
-console.log('initiating test sequence in 1....');
+console.log('initiating test sequence in 3....');
 
