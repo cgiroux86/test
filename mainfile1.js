@@ -1,4 +1,4 @@
 
-console.log('All is well, all is good, all is swell!!!!!!!!');
+console.log('I wish that the good outweighed the bad!!!!!!!!');
 
 
