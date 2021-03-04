@@ -1,6 +1,3 @@
-console.log('Hello World, HELLOOO WORLDDDD!!!')
-// 6 2 4
-
 
 function normalizeFileInfoToBaseVersion(fileInfo) {
     const normalizedBaseFile: ShaDict = {};
