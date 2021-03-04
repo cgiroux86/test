@@ -1,4 +1,5 @@
 
+// The new test file!
 function normalizeFileInfoToBaseVersion(fileInfo) {
     const normalizedBaseFile: ShaDict = {};
     if (fileInfo.baseFileSha) {
