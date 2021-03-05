@@ -1,1 +1,1 @@
-console.log('The newest');
+console.log('The newest of new!');
