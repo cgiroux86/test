@@ -2,3 +2,4 @@
 
 console.log('HELLOOOO EVERYONE, it"s me again!!!');
 console.log(5000);
+console.log(500);
