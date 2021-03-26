@@ -4,3 +4,6 @@ console.log('third commit');
 console.log('fourth commit');
 console.log('fifth commit');
 console.log('first commit');
+
+console.log('6th commit');
+console.log('7th commit');
