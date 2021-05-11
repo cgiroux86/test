@@ -1,1 +1,1 @@
-# test repo for testing things fast or slow!
+# test repo for testing things fast!
