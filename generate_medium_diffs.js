@@ -5,7 +5,7 @@ const axios = require('axios');
 function execute() {
   if (!fs.existsSync('medium')) fs.mkdirSync('medium');
   const type = process.argv[2];
-  for (let i = 0; i < 25; i++) {
+  for (let i = 0; i < 20; i++) {
     if (type === 'cleanup') removeFile(`medium/medium_diff_${i}.html`);
     else writeToFile(`medium/medium_diff_${i}.html`);
   }
