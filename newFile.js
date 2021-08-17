@@ -1,1 +1,7 @@
-console.log('Hi!!!');
+function computeTimePalindrone() {
+  
+}
+
+function computeConsecutiveTimeIntervals() {
+    
+}
