@@ -1,0 +1,136 @@
+{
+    "commitFile:r1:00c8dc1e708bf6ffa3f47f97f8d8259ed385940a-commitFile:r2:604642f52708cca2a91044549d7d6570732f022b": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    },
+    "commitFile:r2:604642f52708cca2a91044549d7d6570732f022b-commitFile:r3:61ac117893d8d57e39fd6c219f057c560bf208e7": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    },
+    "commitFile:r3:61ac117893d8d57e39fd6c219f057c560bf208e7-commitFile:r4:996fe78c5a127459339901fade5fec89bca86ca5": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    },
+    "commitFile:r3:61ac117893d8d57e39fd6c219f057c560bf208e7-commitFile:r4:aabac509a8769b606faca7fb2968b1c1fd562643": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    },
+    "commitFile:r3:61ac117893d8d57e39fd6c219f057c560bf208e7-commitFile:r4:ca75f44858e7d4db5cb28f024443756fa80e96b0": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    },
+    "commitFile:r4:ca75f44858e7d4db5cb28f024443756fa80e96b0-commitFile:r5:1ead12be4d8017685c517886aa1946e86e207fb2": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    },
+    "commitFile:r4:ca75f44858e7d4db5cb28f024443756fa80e96b0-commitFile:r5:4252e55a528acc115f316afdd2bd1d1ad623da5d": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    },
+    "commitFile:r5:4252e55a528acc115f316afdd2bd1d1ad623da5d-commitFile:r6:ccc402efbc80a4e6f3752e2ee4af85a133970102": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    },
+    "commitFile:r6:ccc402efbc80a4e6f3752e2ee4af85a133970102-commitFile:r7:93587cc5bb7e7b5bfa73bba5943344876223ad8f": {
+        "b0": {
+            "accuracy": 0.26269731101386307,
+            "leftEnd": 0,
+            "rightEnd": 15,
+            "rightStart": 1,
+            "type": "bottom"
+        },
+        "b1": {
+            "accuracy": 1,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 17,
+            "rightStart": 16,
+            "type": "bijection"
+        },
+        "b2": {
+            "accuracy": 0.1272047477390822,
+            "leftEnd": 2,
+            "rightEnd": 882,
+            "rightStart": 18,
+            "type": "bottom"
+        }
+    },
+    "commitFile:r7:93587cc5bb7e7b5bfa73bba5943344876223ad8f-commitFile:r8:133e5e8afbf0f1ec608d2f4b968e6d87d0d91b63": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    },
+    "commitFile:r8:133e5e8afbf0f1ec608d2f4b968e6d87d0d91b63-commitFile:r9:2058da69280a746c02bb7763dc2b32641ecc1047": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    },
+    "commitFile:r8:133e5e8afbf0f1ec608d2f4b968e6d87d0d91b63-commitFile:r9:ef0f996675e35c82bb5c41ce6b12428da82c3c84": {
+        "b0-2": {
+            "accuracy": 0.9,
+            "leftEnd": 2,
+            "leftStart": 1,
+            "rightEnd": 2,
+            "rightStart": 1,
+            "type": "bijection"
+        }
+    }
+}
