@@ -1,6 +1,6 @@
 
 function computeTimePalindrone() {
-  console.log('TRUE');
+  console.log('TRUE!!');
 }
 
 function computeConsecutiveTimeIntervals() {
