@@ -4,5 +4,5 @@ function computeTimePalindrone() {
 }
 
 function computeConsecutiveTimeIntervals() {
-  console.log('FALSE!');
+  console.log('FALSE!!');
 }
