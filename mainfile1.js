@@ -5,7 +5,7 @@ function _syntheticCommitShasDifferFromRevisionCommitShas(file, revKey) {
       const lastParsedCommitSha = _(file.matchAll(/^\n- (\w{7}):(.*?)$/gm))
         .toArray()
         .last()[1]
-      console.log('LAST SHA ->', lastParsedCommitSha);
+      console.log('LAST SHA', lastParsedCommitSha);
       return lastParsedCommitSha !== ~this.review.revisions[revKey].commitSha.slice(0, 7);
     }
 
