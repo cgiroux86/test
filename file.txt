@@ -1,0 +1,10 @@
+New commits in r1 at 2021-08-23 13:01:18Z:
+- 4ab1642: [LEBSYSTEM-882] 5229, STD, Förbättrad spårbarhet från instans till produktbygge
+- Creating 'artifact-<PRODUCT>.properties' for LEBSystem.
+- Merge of all `artifact-<PRODUCT>.properties` files into `artifact.properties`
+- Updated Step_040_ProgramFilesUpdate to copy artifact properties.
+- Added extract/copy tasks for `artifact-*.properties` for LEB_SYSTEM, LEB_PORTAL, LEB_WINDOWS and LEB_EXE installs.
+- Included artifact version info in about dialog.
+- Version bumps.
+
+- 4379f97: [LEBSYSTEM-882] 5229, STD, Förbättrad spårbarhet från instans till produktbygge
