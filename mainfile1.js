@@ -11,5 +11,5 @@ function _syntheticCommitShasDifferFromRevisionCommitShas(file, revKey) {
 
 const file1 = readFileSync('./file.txt', 'utf-8')
 const file2 = readFileSync('./file2.txt', 'utf-8')
-console.log('FILE1!  ->', file1.replace(/\n\n?/g, '!!!'));
+console.log('FILE1  ->', file1.replace(/\n\n?/g, '!!!'));
 _syntheticCommitShasDifferFromRevisionCommitShas(file1, 'r1');
