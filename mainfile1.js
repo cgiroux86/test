@@ -9,6 +9,6 @@ function _syntheticCommitShasDifferFromRevisionCommitShas(file, revKey) {
       return lastParsedCommitSha !== ~this.review.revisions[revKey].commitSha.slice(0, 7);
     }
 
-const file1 = readFileSync('./file.txt', 'utf-8')
+const file1 = readFileSync('./file.txt', 'utf-8');
 const file2 = readFileSync('./file2.txt', 'utf-8')
 
