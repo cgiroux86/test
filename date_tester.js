@@ -20,4 +20,3 @@ const thirdDate = "New commits in r3 at 2021-09-06 17:32:01Z"
 
 console.log('TRANSFORMED 1: ', transformDate(date));
 console.log('TRANSFORMED 2: ', transformDate(secondDate));
-console.log('TRANSFORMED 3:', transformDate(thirdDate));
