@@ -1,6 +1,22 @@
-#!/usr/bin/pyth
+{
+  "testEnvironment": "node", 
+  "roots": ["<rootDir>/src"],
+  "testRegex": "(\\.|/)(test|spec)\\.js$",
+  "testPathIgnorePatterns": ["<rootDir>/built/"],
+  "moduleFileExtensions": [
+    "ts",
+    "js"
+  ],
+  "globals": {
+    "window": true
+  },
+  "moduleDirectories": [
+    "node_modules/",
+    "bower_components",
+    "<rootDir>/diff_worker/bower_components"
+  ],
+  "moduleNameMapper": {
+    "\\.diff_worker.js": "<rootDir>/__mocks__/workerMock.js"
+  }
+}
 
-import sys
-import os
-print('HELLO');
-print('HI!');
