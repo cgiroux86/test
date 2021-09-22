@@ -1,0 +1,6 @@
+#!/usr/bin/pyth
+
+import sys
+import os
+print('HELLO');
+print('HI!');
