@@ -1,3 +1,4 @@
 #!/usr/bin/env node
 
-const test = '123'
+const test = '12345';
+let testing = 123;
