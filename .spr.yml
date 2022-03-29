@@ -2,7 +2,7 @@ githubRepoOwner: cgiroux86
 githubRepoName: test
 githubHost: github.com
 requireChecks: false
-requireApproval: true
+requireApproval: false
 githubRemote: origin
 githubBranch: master
 mergeMethod: rebase
