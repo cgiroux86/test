@@ -8,4 +8,4 @@ New commits in r1 at 2021-08-23 13:01:18Z:
 - Version bumps.
 
 - 4379f97: [LEBSYSTEM-882] 5229, STD, Förbättrad spårbarhet från instans till produktbygge
-- abcdefg: TEST!!
+- abcdefg: TEST!
