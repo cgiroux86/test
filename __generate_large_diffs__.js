@@ -14,7 +14,7 @@ function execute() {
 function writeToFile(path) {
   let combined;
   return Promise.all([
- axios.get('https://l   oripsum.net/api/10/long/headers'),
+ axios.get('https://loripsum.net/api/10/long/headers'),
     axios.get('https://loripsum.net/api/10/long/headers'),
     axios.get('https://loripsum.net/api/10/long/headers'),
     axios.get('https://loripsum.net/api/10/long/headers'),
@@ -23,7 +23,7 @@ function writeToFile(path) {
   ]).then(([file1, file2, file3, file4, file5, file6]) => {
     combined = file1.data + file2.data + file3.data + file4.data + file5.data + file6.data;
     fs.writeFileSync(`large/huge_file.html`, combined)
-  });
+  }).catch(err => console.log('ERROR ->', err));
   // return 
   //   .then(res => fs.writeFileSync(path, res.data))
   //   .catch(err => console.log('error ->', err));
